@@ -15,3 +15,4 @@ class StudentProfileForm(forms.ModelForm):
             'projects': forms.Textarea(attrs={'class': 'form-control', 'rows': 3}),
             'profile_pic': forms.FileInput(attrs={'class': 'form-control'}),
         }
+
