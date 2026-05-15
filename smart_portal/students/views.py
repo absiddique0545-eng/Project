@@ -44,3 +44,5 @@ def cancel_application(request, pk):
     application = get_object_or_404(Application, pk=pk, student=request.user)
     application.delete()
     return redirect('student_home')
+
+
