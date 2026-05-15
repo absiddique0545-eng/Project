@@ -9,3 +9,4 @@ urlpatterns = [
     path('apply/<int:pk>/', views.apply_for_internship, name='apply_for_internship'),
     path('cancel-application/<int:pk>/', views.cancel_application, name='cancel_application'),
 ]
+
